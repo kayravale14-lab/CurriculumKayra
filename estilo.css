@@ -1,0 +1,231 @@
+
+/* CONFIGURACIÓN GENERAL */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Catamaran', sans-serif;
+    background-color: #F1EDF2;
+    color: #29232E;
+    margin: 0;
+    padding: 30px;
+}
+
+/* CONTENEDORES PRINCIPALES */
+
+header, main, footer {
+    max-width: 900px;
+    margin: auto;
+}
+
+header {
+    background-color: #FFFFFF;
+    padding: 35px;
+    text-align: center;
+    border-top: 8px solid #D92D78;
+    border-radius: 15px 15px 0 0;
+    box-shadow: 0 4px 10px #D8CED8;
+}
+
+header {
+    position: relative;
+    overflow: hidden;
+}
+
+
+    .decoracion {
+        width: 100%;
+        height: 150px;
+        background-color: #f6dfe9;
+        border-radius: 0 0 100% 100%;
+        position: absolute;
+        top: 0;
+        left: 0%;
+        opacity: 0.5;
+        margin-top: auto;
+        z-index: 1;
+    }
+    /* FOTOGRAFÍA */
+
+    header img {
+        width: 145px;
+        height: 145px;
+        border-radius: 50%;
+        border: 5px solid #D92D78;
+        z-index: 2;
+        position: relative;
+    }
+
+    /* NOMBRE Y PROFESIÓN */
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+    font-weight: 800;
+    color: #29232E;
+    margin: 15px 0 5px;
+    text-transform: uppercase;
+}
+
+header > p strong {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color: #D92D78;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+header p {
+    line-height: 1.7;
+}
+
+header a {
+    color: #087F79;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 5px;
+}
+
+header a:hover {
+    color: #D92D78;
+    text-decoration: underline;
+}
+
+/* CONTENIDO PRINCIPAL */
+
+main {
+    background-color: #FFFFFF;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+/* SECCIONES */
+
+section {
+    background-color: #FCFAFC;
+    padding: 18px;
+    border: 1px solid #E5DCE7;
+    border-radius: 10px;
+}
+
+section:hover {
+    background-color: #F9F0F6;
+}
+
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    color: #FFFFFF;
+    padding: 12px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* COLORES DE LOS TÍTULOS */
+
+section:nth-of-type(1) h2 {
+    background-color: #D92D78;
+}
+
+section:nth-of-type(2) h2 {
+    background-color: #7041A6;
+}
+
+section:nth-of-type(3) h2 {
+    background-color: #087F79;
+}
+
+section:nth-of-type(4) h2 {
+    background-color: #d09903;
+}
+
+section:nth-of-type(5) h2 {
+    background-color: #4a953e;
+}
+
+section:nth-of-type(6) h2 {
+    background-color: #423dd6;
+}
+
+/* SUBTÍTULOS */
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #29232E;
+    margin-bottom: 5px;
+}
+
+/* TEXTOS */
+
+p {
+    font-size: 14px;
+    line-height: 1.7;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #5F5863;
+}
+
+em {
+    color: #7041A6;
+    font-size: 13px;
+}
+
+strong {
+    font-weight: bold;
+    color: #29232E;
+}
+
+/* LISTAS */
+
+ul, ol {
+    padding-left: 22px;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #5F5863;
+}
+
+li {
+    margin-bottom: 4px;
+}
+
+/* ENLACES */
+
+section a {
+    color: #087F79;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+section a:hover {
+    color: #D92D78;
+    text-decoration: underline;
+}
+
+/* PIE DE PÁGINA */
+
+footer {
+    background-color: #29232E;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    border-top: 5px solid #D92D78;
+    border-radius: 0 0 15px 15px;
+}
+
+footer p {
+    color: #FFFFFF;
+    margin: 3px;
+    font-size: 13px;
+}
+
